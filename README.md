@@ -47,4 +47,3 @@ cd smart-contract && npm install && npx hardhat compile && cd ..
 # Install frontend and start
 cd client && npm install && npm start
 
->>>>>>> 5620158a59447315fee91afda30b3ad5e906332b
