@@ -1,0 +1,141 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  background: #f4f6fb;
+  color: #2d3a4b;
+}
+
+.app-bg {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e0e7ff 0%, #f4f6fb 100%);
+}
+
+.app-header {
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+  padding: 2rem 0 1rem 0;
+  text-align: center;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.app-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #3b3b3b;
+  margin-bottom: 0.5rem;
+  letter-spacing: 1px;
+}
+
+.app-subtitle {
+  font-size: 1.2rem;
+  color: #6c7a89;
+  margin-bottom: 1.2rem;
+}
+
+.account-info {
+  font-size: 1rem;
+  background: #e0e7ff;
+  display: inline-block;
+  padding: 0.5rem 1.2rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.account-address {
+  font-family: 'Roboto Mono', monospace;
+  color: #4f46e5;
+}
+
+.app-main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 24px rgba(44, 62, 80, 0.08);
+}
+
+/* Buy Card Styles */
+.buy-card {
+  background: #fff;
+  border-radius: 0.7rem;
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+  padding: 2rem 1.5rem;
+  margin: 2.5rem auto;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.buy-form-heading {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #4f46e5;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.buy-form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.buy-form-label {
+  font-weight: 600;
+  text-align: center;
+  color: #4f46e5;
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.buy-form-input {
+  border-radius: 0.5rem;
+  border: 1px solid #c7d2fe;
+  padding: 0.6rem 0.9rem;
+  font-size: 1rem;
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+  margin-bottom: 0.5rem;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+}
+.buy-form-input:focus {
+  border-color: #6366f1;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
+}
+
+/* Button Styles */
+.buy-btn {
+  background: linear-gradient(90deg, #6366f1 0%, #4f46e5 100%);
+  color: #fff;
+  border: none;
+  border-radius: 0.6rem;
+  padding: 0.6rem 1.6rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+  transition: background 0.2s, transform 0.2s;
+  margin: 1rem auto 0 auto;
+  display: block;
+  text-align: center;
+}
+
+.buy-btn:hover:not(:disabled) {
+  background: linear-gradient(90deg, #4f46e5 0%, #6366f1 100%);
+  transform: translateY(-2px) scale(1.03);
+}
+
+.buy-btn:disabled {
+  background: #c7d2fe;
+  cursor: not-allowed;
+}
