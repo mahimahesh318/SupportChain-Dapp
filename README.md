@@ -1,18 +1,3 @@
-<<<<<<< HEAD
-# Sample Hardhat Project
-
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
-=======
 # SupportChain – A Decentralized Creator Tipping Platform  
 
 SupportChain is a blockchain-based tipping platform that enables users to support creators with crypto contributions along with personalized messages. Built with **Solidity**, **Hardhat**, **Ethers.js**, and **React**, it provides a seamless way to interact with smart contracts via **MetaMask**.  
